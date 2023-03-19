@@ -1,7 +1,6 @@
 $typography-main: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $typography-title: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$typography-general: "Montserrat", "Helvetica Neue", Helvetica, Arial,
-   sans-serif;
+$typography-general: "Montserrat", "Helvetica Neue", Helvetica, Arial,sans-serif;
 
 * {
    margin: 0;
@@ -15,11 +14,3 @@ body {
    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-$grid-breakpoints: (
-   xs: 0,
-   sm: 576px,
-   md: 768px,
-   lg: 992px,
-   xl: 1200px,
-   xxl: 1400px,
-);

@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href=".https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.csss">
-   <link rel="stylesheet" href="../css/styleMain/styleMain.css">
+   <link rel="stylesheet" href="../css/nomalize.css">
    <link rel="stylesheet" href="../css/styleIndex/styleIndex.css">
-   <title>Index</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="../css/styleSearch/styleSearch.css">
+   <title>Search API </title>
 </head>
+
 
 <body>
 
@@ -47,27 +50,21 @@
    </nav>
 
    <header>
-
-      <div class="container-text">
-         <h1 class="title">Welcome to</h1>
-         <p class="title-segundario">Pexels and Unsplash image API</p>
-      </div>
-
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-         <div class="carousel-inner">
-            <div id="image-container" class="rounded mx-auto d-block"></div>
-         </div>
-      </div>
+      <h1>Buscador de imágenes</h1>
+      <form class="form" id="form">
+         <input type="text" id="search" placeholder="Introduce tus palabras clave">
+         <button type="submit">Buscar</button>
+      </form>
    </header>
-   
 
+   <main class="container_img">
+      <div class="card-container" >
+         <img class="card-img-top" src="../img/gato.jpg" alt="">
+      </div>
+   </main>
 
 </body>
 
-<script src="../js/index.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="../js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>
-
-
-

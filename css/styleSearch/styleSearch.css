@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el campo de búsqueda */
+input[type=text] {
+  font-size: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 200px;
+}
+
+/* Estilos para el botón de búsqueda */
+button[type=submit] {
+  background-color: #c32764;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #03dac6;
+}
+
+/* Estilos para la galería de imágenes */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card-container .card-img-top {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 9px;
+  width: 300px;
+  height: 90vh;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  /* Ajustar tamaño del header */
+  header {
+    padding: 10px;
+  }
+  /* Ajustar tamaño del campo de búsqueda */
+  input[type=text] {
+    width: 100%;
+  }
+  /* Ajustar tamaño del botón de búsqueda */
+  button[type=submit] {
+    padding: 8px;
+    font-size: 14px;
+  }
+  /* Ajustar tamaño de la galería */
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}/*# sourceMappingURL=styleSearch.css.map */

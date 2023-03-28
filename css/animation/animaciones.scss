@@ -1,0 +1,32 @@
+.circle {
+  width: 130px;
+  height: 130px;
+  background: radial-gradient(#b0e633, #53ef7d);
+  border-radius: 100%;
+  position: absolute;
+  animation: float1 2s ease-in infinite alternate-reverse;
+  z-index: -1;
+}
+
+.circle:nth-child(1) {
+  top: -19px;
+  right: -30px;
+}
+
+.circle:nth-child(2) {
+  bottom: -19px;
+  left: -30px;
+  animation-name: float2;
+}
+
+@keyframes float1 {
+  to {
+    transform: translateY(10px);
+  }
+}
+
+@keyframes float2 {
+  to {
+    transform: translateY(10px);
+  }
+}

@@ -1,0 +1,170 @@
+// Variables
+$breakpoint-xs: 370px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$brreakpoint-lg: 992px;
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   background: #000000;
+
+   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.container_form {
+  width: 36%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.141);
+  box-shadow: 0 10px 20px -10px #c32763;
+  backdrop-filter: blur(10px);
+  border-radius: 9px;
+  padding: 9px;
+  border-radius: 9px;
+  color: #03e9f4;
+}
+
+.form-label {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  height: 40px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  font-size: 1.1rem;
+}
+
+select.form-select {
+  height: 40px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+button.btn {
+  width: 60%;
+  background-color: #03dac6;
+  color: #3c3c3c;
+  font-size: 2rem;
+  border: none;
+  border-radius: 9px 0;
+  padding: 11px 19px;
+  margin: 6px 0 10px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.comtainer_brn{
+  text-align: center;
+}
+
+button.btn:hover {
+  background-color: #026d64;
+}
+
+
+
+
+@media (min-width: 370px) { 
+    body{
+      height: 146vh;
+    }
+    h1{
+      font-size: 2.5rem;
+      padding:13px;
+    }
+    .container_form {
+    width: 90%;
+    border-radius: 0%;
+    color: #03e9f4;
+    border-radius: 16px;
+    margin: 20px auto;
+    padding: -20px;
+    }
+
+    button.btn{
+      width: 80%;
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+ }
+
+ @media (min-width: 576px) { 
+
+    body{
+      height: 150vh;
+    }
+    .container_form {
+      width: 80%;
+      border-radius: 9px;
+      margin: 20px auto 20px auto;
+      border-radius: 9px;
+      color: #03e9f4;
+    }
+
+    button.btn{
+      width: 60%;
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+ }
+
+ 
+ @media (min-width: 768px) { 
+
+    body{
+      height: 120vh;
+    }
+    .container_form {
+      width: 60%;
+      height: 96vh;
+      border-radius: 9px;
+      margin: 30px auto;
+      border-radius: 9px;
+      color: #03e9f4;
+    }
+ }
+
+
+  @media (min-width: 992px) { 
+
+    body{
+      height: 120vh;
+    }
+
+    .container_form {
+      width: 50%;
+      height: 96vh;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.141);
+      box-shadow: 0 10px 20px -10px #c32763;
+      backdrop-filter: blur(10px);
+      border-radius: 9px;
+      margin: 40px auto;
+      border-radius: 9px;
+      color: #03e9f4;
+    }
+
+    button.btn{
+      width: 60%;
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+}
+
+  
+
+

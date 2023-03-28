@@ -2,6 +2,11 @@ $typography-main: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $typography-title: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $typography-general: "Montserrat", "Helvetica Neue", Helvetica, Arial,sans-serif;
 
+// Variables
+$breakpoint-xs: 370px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+
 * {
    margin: 0;
    padding: 0;
@@ -12,5 +17,9 @@ body {
    overflow: hidden;
    overflow-x: hidden;
    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html {
+   font-size: 62.5%;
 }
 

@@ -3,15 +3,6 @@ h1 {
   color: #ffffff;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-body {
-  background: #000000;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
 .container_form {
   width: 36%;
   overflow: hidden;
@@ -70,7 +61,7 @@ button.btn:hover {
 
 @media (min-width: 370px) {
   body {
-    height: 146vh;
+    height: 119vh;
   }
   h1 {
     font-size: 2.5rem;
@@ -81,21 +72,27 @@ button.btn:hover {
     border-radius: 0%;
     color: #03e9f4;
     border-radius: 16px;
-    margin: 20px auto;
-    padding: -20px;
+    margin: 10px auto;
+    padding: -10px;
   }
   button.btn {
     width: 80%;
     font-size: 1.5rem;
     padding: 10px;
   }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: -6px auto !important;
+  }
 }
 @media (min-width: 576px) {
   body {
-    height: 150vh;
+    height: 126vh;
   }
   .container_form {
     width: 80%;
+    height: 109vh;
     border-radius: 9px;
     margin: 20px auto 20px auto;
     border-radius: 9px;
@@ -103,43 +100,67 @@ button.btn:hover {
   }
   button.btn {
     width: 60%;
-    font-size: 1.5rem;
-    padding: 10px;
+    font-size: 1.6rem;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: -6px auto !important;
   }
 }
 @media (min-width: 768px) {
   body {
-    height: 120vh;
+    height: 109vh;
   }
   .container_form {
     width: 60%;
-    height: 96vh;
+    height: 90vh;
     border-radius: 9px;
     margin: 30px auto;
     border-radius: 9px;
     color: #03e9f4;
   }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: -6px auto !important;
+  }
 }
 @media (min-width: 992px) {
   body {
-    height: 120vh;
+    height: 90vh;
   }
   .container_form {
-    width: 50%;
-    height: 96vh;
+    width: 40%;
+    height: 90vh;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.141);
     box-shadow: 0 10px 20px -10px #c32763;
     -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
     border-radius: 9px;
-    margin: 40px auto;
     border-radius: 9px;
     color: #03e9f4;
   }
   button.btn {
     width: 60%;
-    font-size: 1.5rem;
-    padding: 10px;
+    font-size: 1.9rem;
+    margin-top: -50px;
+    margin-bottom: -50px;
+  }
+  .col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin: -60px auto !important;
+  }
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin: -60px auto !important;
+  }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    margin: -60px auto !important;
   }
 }/*# sourceMappingURL=styleForm.css.map */
